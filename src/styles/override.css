@@ -1,0 +1,24 @@
+.ant-typography ul li,
+.ant-typography ol li {
+  margin: 0 !important;
+}
+
+p {
+  margin-bottom: 0 !important;
+}
+
+button, [type='button'], [type='submit']{
+  width: 55px !important;
+  background-color: #2E2466 !important;
+  background-image: none;
+}
+
+.ant-spin-dot-item {
+  background-color: #2E2466 !important;
+}
+
+.ant-skeleton-element .ant-skeleton-image{
+  width: 100% !important;
+  height: 220px !important;
+}
+

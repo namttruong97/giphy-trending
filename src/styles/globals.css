@@ -1,0 +1,8 @@
+@tailwind base;
+@layer base {
+  html {
+    @apply text-default;
+  }
+}
+@tailwind components;
+@tailwind utilities;

@@ -1,0 +1,22 @@
+{
+  "singleQuote": true,
+  "trailingComma": "es5",
+  "tabWidth": 2,
+  "semi": true,
+  "importOrder": [
+    "^react$",
+    "^[a-z\\-/]*$",
+    "^components/(.*)$",
+    "^services/(.*)$",
+    "^store/(.*)$",
+    "^model/(.*)$",
+    "^mock/(.*)$",
+    "^[./]"
+  ],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true,
+  "printWidth": 100,
+  "bracketSpacing": true,
+  "arrowParens": "always",
+  "endOfLine": "auto"
+}

@@ -1,0 +1,25 @@
+{
+  "extends": [
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended",
+    "prettier",
+    "next/core-web-vitals",
+    "next"
+  ],
+  "plugins": ["@typescript-eslint/eslint-plugin"],
+  "rules": {
+    "react/no-unescaped-entities": "off",
+    "@typescript-eslint/no-non-null-assertion": "off",
+    "@typescript-eslint/no-non-null-asserted-optional-chain": "off",
+    "@next/next/no-page-custom-font": "off",
+    "@typescript-eslint/no-explicit-any": "off"
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "moduleDirectory": ["node_modules", "src"]
+      },
+      "typescript": {}
+    }
+  }
+}
