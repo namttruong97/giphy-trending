@@ -8,14 +8,7 @@ interface ICollapseProps extends HTMLAttributes<HTMLDivElement> {
   image: string;
 }
 
-export const Collapse: FC<ICollapseProps> = ({
-  isOpen,
-  title,
-  className,
-  children,
-  image,
-  ...props
-}) => {
+export const Collapse: FC<ICollapseProps> = ({ isOpen, className, children, image, ...props }) => {
   const [state, setState] = useState(isOpen);
 
   const handleOnClick = useCallback(() => {

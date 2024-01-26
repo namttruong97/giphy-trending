@@ -20,7 +20,7 @@ export interface IGifBoardProps extends IGifTypeLabelProps {
 
 export default function GifBoard({ data, isLast, totalCount, isSearching }: IGifBoardProps) {
   return (
-    <ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3, 1500: 4 }}>
+    <ResponsiveMasonry columnsCountBreakPoints={{ 350: 2, 900: 3, 1500: 4 }}>
       <GifTypeLabel isSearching={isSearching} totalCount={totalCount} />
       {!isEmpty(data) ? (
         <Masonry gutter="8px">

@@ -19,7 +19,7 @@ export const Layout: FC<ILayoutProps> = ({ children, className, title, isLoading
       <Header />
       <div
         className={classMapping(
-          'flex flex-col lg:pt-20  overflow-hidden w-full relative',
+          'flex flex-col lg:pt-[60px]  overflow-hidden w-full relative',
           className
         )}
       >

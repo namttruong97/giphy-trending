@@ -71,7 +71,7 @@ const GifSearch: FC<IGifSearchProps> = ({ className }) => {
   };
 
   return (
-    <div className={classMapping('com__GifSearch', className)}>
+    <div className={classMapping('com__GifSearch py-4', className)}>
       <SearchField
         disabled={isLoadingSearch}
         size="large"

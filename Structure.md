@@ -14,7 +14,7 @@
     │   │
     │   └─── pages: react-admin router
     │   │
-    │   └─── services: connect to BE by Axios
+    │   └─── services: call API by GIPHY SDK
     │   │
     │   └─── store: Global store to save data like Redux
     │   │
