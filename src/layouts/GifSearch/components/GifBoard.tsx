@@ -5,6 +5,7 @@ import { Skeleton } from 'antd';
 import { isEmpty } from 'lodash';
 import Image from 'next/image';
 import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry';
+import { PLACEHOLDER_LOADING_LENGTH } from 'utils/constants';
 
 import { Collapse } from 'components/Collapse';
 
@@ -32,7 +33,7 @@ export default function GifBoard({ data, isLast, totalCount, isSearching }: IGif
 
           {/* Fake placeholder loading image */}
           {!isLast &&
-            Array.from(Array(8).keys()).map((item, index) => (
+            Array.from(Array(PLACEHOLDER_LOADING_LENGTH).keys()).map((_item, index) => (
               <Skeleton.Node active key={index} className="w-full">
                 <DotChartOutlined style={{ fontSize: 60, color: '#bfbfbf' }} />
               </Skeleton.Node>
